@@ -151,3 +151,18 @@
 		}
 	}
 }
+
+@keyframes move-background {
+	from {
+	  background-position: 50% 0%;
+	}
+	to {
+	  background-position: 50% 100%;
+	}
+  }
+
+  body {
+	animation: linear move-background;
+  	animation-duration: auto;
+  	animation-timeline: scroll(root block);
+  }
